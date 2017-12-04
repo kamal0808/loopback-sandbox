@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "StoreConfigModel": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ProductModel": {
+    "dataSource": "db",
+    "public": true
   }
 }

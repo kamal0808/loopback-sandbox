@@ -1,0 +1,24 @@
+{
+  "name": "StoreConfigModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "productModels": {
+      "type": "hasMany",
+      "model": "ProductModel",
+      "foreignKey": "storeConfigModelId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
